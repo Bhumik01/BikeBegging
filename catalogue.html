@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose A Bike!!!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FADADD;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #FB607F;
+      font-family: 'Sacramento', cursive;
+    }
+
+    .bike-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .bike-card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 250px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .bike-card:hover {
+      transform: scale(1.05);
+    }
+
+    .bike-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .bike-card button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-family: 'Sacramento', cursive;
+      background-color: #FB607F;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .bike-card button:hover {
+      background-color: #ff3366;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+  </style>
+</head>
+<body>
+
+  <h1>Choose A Bike!!!</h1>
+
+  <div class="bike-grid">
+  <div class="bike-card">
+    <img src="bike1.png" alt="RE Himalayan 450">
+    <h3>RE Himalayan 450</h3>
+    <button>Choose This</button>
+  </div>
+  <div class="bike-card">
+    <img src="bike2.png" alt="RE Bear 650">
+    <h3>RE Bear 650</h3>
+    <button>Choose This</button>
+  </div>
+  <div class="bike-card">
+    <img src="bike3.png" alt="RE Guerrilla 450">
+    <h3>RE Guerrilla 450</h3>
+    <button>Choose This</button>
+  </div>
+  <div class="bike-card">
+    <img src="bike4.png" alt="KTM 390X Adventure">
+    <h3>KTM 390X Adventure</h3>
+    <button>Choose This</button>
+  </div>
+</div>
+
+</body>
+</html>
